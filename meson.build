@@ -14,10 +14,10 @@ sources = [
 #meson configure -Doption=newvalue
 if get_option('with-gtk3')
   gtk = 'gtk+-3.0'
-  app_ind = 'ayatana-appindicator3-0.1'
+  app_ind = 'appindicator3-0.1'
 else
   gtk = 'gtk+-2.0'
-  app_ind = 'ayatana-appindicator-0.1'
+  app_ind = 'appindicator-0.1'
 endif
 
 dependencies = [
